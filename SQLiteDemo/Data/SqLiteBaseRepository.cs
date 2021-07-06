@@ -23,20 +23,7 @@ namespace SQLiteDemo.Data
 
             return new SqliteConnection(conn);//创建SQLite连接
 
-            //if (connection.State == ConnectionState.Closed)
-            //{
-
-            //    connection.Open();
-            //    var createTableSqlStr = @"CREATE TABLE  if not exists ""Alarm"" ( ""Id"" INTEGER NOT NULL, ""AlarmName"" TEXT, ""AlarmTypeId"" INTEGER, PRIMARY KEY ( ""Id"" ) );";
-            //    var result = connection.Execute(createTableSqlStr);//使用Dapper执行sql语句创建表
-            //    Console.ReadKey();
-            //}
-
-
-
-
-
-
+            
         }
     }
 }
